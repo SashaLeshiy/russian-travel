@@ -1,0 +1,15 @@
+.header__lang-link {
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
+  align-self: flex-end;
+  margin-right: 18px;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+.header__lang-link:hover {
+  text-decoration: underline;
+}
