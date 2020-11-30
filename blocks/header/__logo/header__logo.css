@@ -2,4 +2,9 @@
   background-image: url('../../../images/__logo.svg');
   width: 176px;
   height: 52px;
+  transition: opacity 0.7s linear;
+}
+
+.header__logo:hover {
+  opacity: 0.5;
 }

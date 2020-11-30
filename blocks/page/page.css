@@ -1,15 +1,22 @@
 @font-face {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: normal;
   font-style:  normal;
+  -webkit-font-smoothing: antialiased;
   src: url("../../fonts/Inter-Regular.woff2") format("woff2"),
        url("../../fonts/Inter-Regular.woff") format("woff");
   }
 .page {
   max-width: 1280px;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #ffffff;
-  margin: 0;
+  margin: 0 auto;
   background: #2A2C2F;
   padding-top: 28px;
+}
 
+@media screen and (max-width: 1024px) {
+.page {
+  max-width: 1024px;
+ }
 }

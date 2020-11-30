@@ -1,0 +1,15 @@
+.lead__svg {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  min-height: 225px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__svg {
+    top: 46%;
+
+  }
+
+}

@@ -1,0 +1,12 @@
+.place__link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.place__link:hover {
+  cursor: none;
+  /*cursor: url ('../../../images/Imported Layers Copy 4.svg'), auto;*/
+}

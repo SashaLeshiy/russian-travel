@@ -10,6 +10,6 @@
   margin-right: 0;
 }
 
-.header__lang-link:hover {
+.header__lang-link:active {
   text-decoration: underline;
 }
