@@ -6,9 +6,18 @@
   margin-bottom: 26px;
 }
 
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .place__paragraph {
+    font-size: 2vw;
+    line-height: 163%;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 163%;
+    margin: 0 16px;
   }
 }

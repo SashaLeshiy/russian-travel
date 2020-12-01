@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: min-content 1fr;
   column-gap: 40px;
   row-gap: 48px;
@@ -9,4 +9,22 @@
 
 .place:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 720px) and (min-width: 321px){
+  .place {
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    grid-template-rows: 1fr;
+    gap: 32px;
+    margin-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    gap: 32px;
+    margin-bottom: 49px;
+  }
 }

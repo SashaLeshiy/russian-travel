@@ -3,4 +3,25 @@
   line-height: 14px;
   font-weight: 400;
   margin: 8px 0 0 0;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 928px) and (min-width: 769px) {
+  .lead__caption {
+    padding-left: 2.58vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  }
 }

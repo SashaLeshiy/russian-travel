@@ -8,3 +8,17 @@
   text-align: center;
   white-space: pre-line;
 }
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  .cover__title {
+    font-size: 9.3vw;
+    line-height: 1.05;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+    }
+}

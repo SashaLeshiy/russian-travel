@@ -15,10 +15,26 @@
   }
 }
 
+@media screen and (max-width: 1023px) and (min-width: 769px) {
+  .intro {
+    padding: 92px 0 92px 0;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro {
-    padding: 92px 0 92px 7.8125vw;
+    padding: 92px 0 92px 0;
     max-width: 720px;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 767px) and (min-width: 320px) {
+    .intro {
+      padding: 86px 0 64px 0;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+  }
+
 }
