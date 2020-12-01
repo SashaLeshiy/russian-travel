@@ -14,19 +14,17 @@
   }
 }
 
-@media screen and (max-width: 720px) and (min-width: 321px){
+@media screen and (max-width: 720px) and (min-width: 585px){
   .place__image {
-    justify-self: center;
-    max-width:  320px;
-    max-height: 320px;
+    width:  100%;
+    margin: 0 auto;
   }
 }
 
-
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 584px) {
   .place__image {
     width: 100%;
     margin: 0;
+    justify-self: center;
   }
 }
