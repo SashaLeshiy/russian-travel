@@ -14,17 +14,16 @@
   }
 }
 
-@media screen and (max-width: 720px) and (min-width: 585px){
+@media screen and (max-width: 720px) {
   .place__image {
     width:  100%;
-    margin: 0 auto;
+    margin-left: 16px;
   }
 }
 
-@media screen and (max-width: 584px) {
+@media screen and (max-width: 356px) {
   .place__image {
     width: 100%;
-    margin: 0;
-    justify-self: center;
+    margin-left: 0;
   }
 }
