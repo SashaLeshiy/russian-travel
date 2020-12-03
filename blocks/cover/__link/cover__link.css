@@ -1,4 +1,22 @@
 .cover__link {
+  width: 100%;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
+  justify-content: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    margin: 0;
+    min-height: 64vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+      min-height: 200px;
+    }
 }

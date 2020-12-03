@@ -8,13 +8,6 @@
   white-space: pre-line;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__subtitle {
-    /*font-size: 3.9vw;
-    line-height: 1.2;*/
-  }
-}
-
 @media screen and (max-width: 767px) and (min-width: 321px) {
   .lead__subtitle {
     font-size: 5vw;

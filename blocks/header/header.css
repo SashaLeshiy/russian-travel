@@ -1,12 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 7.5vw);
+  max-width: 1184px;
+  min-width: 320px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 1280px) {
-  .header {
-    max-width: calc(100% - 96px);
-  }
+  box-sizing: border-box;
+  padding: 0 3vw;
 }

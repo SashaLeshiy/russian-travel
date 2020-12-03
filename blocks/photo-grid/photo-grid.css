@@ -7,30 +7,21 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1184px) and (min-width: 1025px) {
+@media screen and (max-width: 1184px) {
   .photo-grid {
     max-width: 928px;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .photo-grid {
-    max-width: 928px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 928px) and (min-width: 769px) {
+@media screen and (max-width: 928px) {
   .photo-grid {
     max-width: 728px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: 720px;
-    margin: 0 auto;
   }
 }
