@@ -5,22 +5,39 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 92px 3vw 24px 3vw;
+  padding: 102px 0 24px 0;
   align-items: flex-end;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .footer {
-    padding: 8.6vw 3vw 24px 3vw;
+    padding: 102px 2vw 24px 2vw;
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 78px 46px 24px 50px;
+  }
+}
 
-@media screen and (max-width: 347px) {
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 84px 22px 34px 25px;
+  }
+}
+
+@media screen and (max-width: 370px) {
   .footer {
     flex-direction: column;
     align-items: baseline;
     padding: 64px 3vw 24px 3vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    padding: 58px 20px 24px 20px;
   }
 }

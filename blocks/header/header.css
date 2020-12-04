@@ -5,5 +5,28 @@
   min-width: 320px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 3vw;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding: 0 2.3vw 0 2.3vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 0 47px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 23px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px;
+  }
 }
